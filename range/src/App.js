@@ -1,8 +1,15 @@
 import React from "react";
 import './App.css';
+import Posts from "./components/Posts";
 
 class App extends React.Component {
-    state = {val: 50}
+    state = {
+        psts: [
+            {id: '1', name: 'JS basic', title: "Обучение базовым возможностям JS"},
+            {id: '2', name: 'JS advance', title: "Обучение расширенным возможностям JS"},
+            {id: '3', name: 'React JS', title: "Обучение React JS"}
+        ]
+    }
 
     update = (event)=>{
         this.setState({val: event.target.value});

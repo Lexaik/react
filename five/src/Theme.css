@@ -1,0 +1,22 @@
+.dark{
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+.light{
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
