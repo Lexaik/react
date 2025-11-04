@@ -1,0 +1,10 @@
+h2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    font-size: 40px;
+    background: yellow;
+    text-align: center;
+    width: 100px;
+}
